@@ -1,0 +1,5 @@
+C:\Users\ПавловЕ\Documents\Visual Studio 2017\Projects\PractProject\PractProject\bin\Debug\PractProject.dll
+C:\Users\ПавловЕ\Documents\Visual Studio 2017\Projects\PractProject\PractProject\bin\Debug\PractProject.pdb
+C:\Users\ПавловЕ\Documents\Visual Studio 2017\Projects\PractProject\PractProject\obj\Debug\PractProject.csprojResolveAssemblyReference.cache
+C:\Users\ПавловЕ\Documents\Visual Studio 2017\Projects\PractProject\PractProject\obj\Debug\PractProject.dll
+C:\Users\ПавловЕ\Documents\Visual Studio 2017\Projects\PractProject\PractProject\obj\Debug\PractProject.pdb
