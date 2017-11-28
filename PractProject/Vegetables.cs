@@ -7,12 +7,12 @@ using static System.Console;
 
 namespace PractProject
 {
-    class Vegetables
+    public class Vegetables
     {
         private string _name;    //имя
         private int _stage;      //стадия
         private double _needWater;
-        Information _info;
+        private Information _info;
 
         public string GetName()
         {

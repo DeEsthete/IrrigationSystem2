@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PractProject
 {
-    class Information
+    public class Information
     {
         private double _temperature;    //температура
         private double _humidity;       //влажность

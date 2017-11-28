@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PractProject
 {
-    class IrrigationSystem
+    public class IrrigationSystem
     {
         private Vegetables _vegetables;
         private Static _stat;
@@ -16,9 +16,6 @@ namespace PractProject
             _vegetables.SetStage(vegetables.GetStage());
             _vegetables.SetNeedWater(vegetables.GetNeedWater());
             _vegetables.SetInformation(vegetables.GetInformatin());
-
         }
-
-        public IrrigationSystem()
     }
 }
