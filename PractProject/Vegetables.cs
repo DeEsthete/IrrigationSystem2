@@ -51,11 +51,11 @@ namespace PractProject
             return _needWater;
         }
 
-        public void SetNeedWater(int needWater)
+        public void SetNeedWater(double needWater)
         {
             string text = ReadLine();
 
-            bool isParsed = int.TryParse(text, out needWater);
+            bool isParsed = double.TryParse(text, out needWater);
             if (!isParsed)
             {
                 Write("Ошибка!");

@@ -8,7 +8,17 @@ namespace PractProject
 {
     class IrrigationSystem
     {
-        Vegetables _vegetables;
-        
+        private Vegetables _vegetables;
+        private Static _stat;
+        public IrrigationSystem(Vegetables vegetables)
+        {
+            _vegetables.SetName(vegetables.GetName());
+            _vegetables.SetStage(vegetables.GetStage());
+            _vegetables.SetNeedWater(vegetables.GetNeedWater());
+            _vegetables.SetInformation(vegetables.GetInformatin());
+
+        }
+
+        public IrrigationSystem()
     }
 }
