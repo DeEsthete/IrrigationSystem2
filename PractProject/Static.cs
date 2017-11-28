@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PractProject
 {
-    class Static
+    public class Static
     {
         private double _lastWater;      //вода      //литр
         private double _lastEnergy;     //энергия   //ват

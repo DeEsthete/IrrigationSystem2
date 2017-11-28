@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace PractProject
 {
-    class Hub
+    public class Hub
     {
         bool _turnON;  //включена ли система
         //Static statistic;
-        Information _info;
-        Static _stat;
-        IrrigationSystem[] _vegetables;
+        private Information _info;
+        private Static _stat;
+        private IrrigationSystem[] _vegetables;
 
         public bool GetTurnOn()
         {

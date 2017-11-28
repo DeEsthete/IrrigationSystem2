@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace PractProject
 {
-    class IrrigationSystem
+    public class IrrigationSystem
     {
-        Vegetables _vegetables;
+        private Vegetables _vegetables;
         
     }
 }
