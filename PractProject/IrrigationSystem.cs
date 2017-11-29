@@ -17,7 +17,7 @@ namespace PractProject
             _vegetables.SetStage(vegetables.GetStage());
             _vegetables.SetNeedWater(vegetables.GetNeedWater());
             _vegetables.SetInformation(vegetables.GetInformatin());
-		}
+        }
 
         public Vegetables GetVegetables()
         {
@@ -39,10 +39,29 @@ namespace PractProject
             _stat = stat;
         }
 
-        public bool IsHumidity();//проверка на влажность
-        public bool IsTemperature();//проверка на температуру
-        public bool IsWater();//проверка на воду
-        
-        
+        public bool IsHumidity()//проверка на влажность
+        {
+            if (_vegetables.GetInformatin().GetHumidity() < _vegetables.GetNeedWater())
+            {
+                _vegetables.GetInformatin().SetHumidity(_vegetables.GetNeedWater());
+                _vegetables.GetInformatin().SetReserveWater(_vegetables.GetNeedWater() - _vegetables.GetInformatin().GetHumidity());
+                return true;
+            }
+            else
+            {
+                Console.WriteLine("Не достаточно воды для полива !!!!");
+                return false;
+            }
+        }
+
+        public bool IsTemperature()//проверка на температуру
+        {
+            //Todo
+        }
+
+        public bool IsWater()//проверка на воду
+        {
+            //ToDo
+        }
     }
 }
