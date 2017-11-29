@@ -13,7 +13,11 @@ namespace PractProject
         private int _stage;      //стадия
         private double _needWater;
         private Information _info;
+        private int _square;
 
+        Vegetables(string name,int stage,double needWater,Information info,int square) {
+
+        }
         public string GetName()
         {
             return _name;

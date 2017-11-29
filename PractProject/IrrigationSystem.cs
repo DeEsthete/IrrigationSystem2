@@ -38,5 +38,11 @@ namespace PractProject
         {
             _stat = stat;
         }
+
+        public bool IsHumidity();//проверка на влажность
+        public bool IsTemperature();//проверка на температуру
+        public bool IsWater();//проверка на воду
+        
+        
     }
 }
