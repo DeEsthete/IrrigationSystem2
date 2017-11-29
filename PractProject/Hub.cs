@@ -13,7 +13,12 @@ namespace PractProject
         private Information _info;
         private Static _stat;
         private IrrigationSystem[] _vegetables;
+        private int _countOfVegetables = 0;
 
+        Hub()
+        {
+            _vegetables = new IrrigationSystem[++_countOfVegetables]; 
+        }
         public bool GetTurnOn()
         {
             return _turnON;
