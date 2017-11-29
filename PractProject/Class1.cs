@@ -11,7 +11,7 @@ namespace PractProject
         static void Main(string[] args)
         {
             Hub irrigationSystem = new Hub();
-
+            irrigationSystem.Menu();
         }
     }
 }

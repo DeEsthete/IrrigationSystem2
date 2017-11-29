@@ -1,0 +1,3 @@
+C:\Users\СикировТ\Documents\Visual Studio 2017\Projects\IrrigationSystem\PractProject\obj\Debug\PractProject.csprojResolveAssemblyReference.cache
+C:\Users\СикировТ\Documents\Visual Studio 2017\Projects\IrrigationSystem\PractProject\obj\Debug\PractProject.dll
+C:\Users\СикировТ\Documents\Visual Studio 2017\Projects\IrrigationSystem\PractProject\obj\Debug\PractProject.pdb
