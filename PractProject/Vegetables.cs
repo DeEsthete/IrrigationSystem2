@@ -11,12 +11,17 @@ namespace PractProject
     {
         private string _name;    //имя
         private int _stage;      //стадия
-        private double _needWater;
+        private double _needWater;//необходимый уровень влажности в поле
         private Information _info;
-        private int _square;
+        private int _square;//площадь поля 
+        private double _needWaterOnSquareMeter;//Количество воды на квадратный метр
 
         Vegetables(string name,int stage,double needWater,Information info,int square) {
-
+            _name = name;
+            _stage = stage;
+            _needWater = needWater;
+            _info = info;
+            _square = square;
         }
         public string GetName()
         {
@@ -77,6 +82,26 @@ namespace PractProject
         public void SetInformation(Information info)
         {
             _info = info;
+        }
+
+        public int GetSquare()
+        {
+            return (_square);
+        }
+
+        public void SetSquare(int square)
+        {
+            _square = square;
+        }
+
+        public void SetNeedWaterOnSquareMeter(int waterSquare)
+        {
+            _needWaterOnSquareMeter = waterSquare;
+        }
+
+        public void CalculationNeedWater()//расчитывает необходимую влажность для поля 
+        {
+            _needWater = _needWaterOnSquareMeter * _square;
         }
     }
 }
